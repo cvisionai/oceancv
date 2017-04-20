@@ -10,7 +10,10 @@ OceanCV bundles ocean image analysis functionality that has been published or is
 ## Contributors
 
 Dr. Timm Schoening
+
 tschoening [at] geomar [dot] de
+
 DeepSea Monitoring Group
+
 GEOMAR Helmholtz-Centre for Ocean Research Kiel
 
