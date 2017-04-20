@@ -1,6 +1,7 @@
 ## Synopsis
 
-OceanCV focusses on computer vision algorithms for underwater image analysis. This includes image processing, pattern recognition, machine learning and geometric algorithms but also functionality for navigation.
+OceanCV focusses on computer vision algorithms for underwater image analysis.
+This includes image processing, pattern recognition, machine learning and geometric algorithms but also functionality for navigation.
 
 ## Motivation
 
