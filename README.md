@@ -1,15 +1,15 @@
 ## Synopsis
 
-oceancv focusses on computer vision algorithms for underwater image analysis.
-This includes image processing, pattern recognition, machine learning and geometric algorithms but also functionality for navigation.
+OceanCV provides computer vision algorithms and tools for underwater image analysis.
+This includes image processing, pattern recognition, machine learning and geometric algorithms but also functionality for navigation data processing, data provenance etc.
 
 ## Motivation
 
-oceancv bundles marine image analysis functionality. Most of the algorithms are related to publications in scientific journals.
+OceanCV bundles marine image analysis functionality. Most of the algorithms are related to publications in scientific journals. See www.oceancv.com for details.
 
 ## Building
 
-oceancv uses cmake. So follow the usual: mkdir build && cd build && cmake ..
+OceanCV uses cmake. So follow the usual: mkdir build && cd build && cmake ..
 
 You can enable / disable the following build targets:
 * WITH_MPEG7 : Build MPEG7 feature extraction library depencendy
@@ -36,7 +36,7 @@ GEOMAR Helmholtz-Centre for Ocean Research Kiel
 * OpenCV (required, ideally with CUDA)
 * jsoncpp (required)
 * curl (required)
-* MPEG7FexLib (optional)
+* MPEG7FexLib (optional) -> included and provided by Muhammet Bastan (Bilkent University) - many thanks!
 * GTest (optional, for tests)
 * doxygen (optional, for documentation)
 
