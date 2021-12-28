@@ -41,9 +41,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libMPEG7.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libMPEG7.dylib")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -id "libMPEG7.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libMPEG7.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libMPEG7.dylib")
     endif()
@@ -97,9 +94,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_util.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_util.dylib")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -id "liboceancv_util.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_util.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_util.dylib")
@@ -132,10 +126,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_ml.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_ml.dylib")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -id "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_ml.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -174,9 +166,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_img.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_img.dylib")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -id "liboceancv_img.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_img.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_img.dylib")
@@ -203,9 +192,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/tschoening/dev/repos/oceancv/build/liboceancv_cudaimg.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_cudaimg.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_cudaimg.dylib")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -id "liboceancv_cudaimg.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_cudaimg.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboceancv_cudaimg.dylib")
@@ -233,11 +219,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/descriptors")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/descriptors" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/descriptors")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib" "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/descriptors")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -252,11 +235,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/h2som")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/h2som" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/h2som")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib" "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/h2som")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -271,11 +251,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/linearregression")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/linearregression" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/linearregression")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib" "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/linearregression")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -290,9 +267,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/statistical_descriptors")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/statistical_descriptors" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/statistical_descriptors")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/statistical_descriptors")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -307,10 +283,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/zernike")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/zernike" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/zernike")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_cudaimg.dylib" "liboceancv_cudaimg.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/zernike")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -325,11 +299,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/laserpoints")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/laserpoints" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/laserpoints")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib" "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/examples/laserpoints")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -348,8 +319,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/asciDataCorrelation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/asciDataCorrelation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/asciDataCorrelation")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/asciDataCorrelation")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -361,13 +332,24 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/openCVBuildConfig")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/openCVBuildConfig" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/openCVBuildConfig")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/usr/local/lib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/openCVBuildConfig")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/openCVBuildConfig")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/runCoMoNoD")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runCoMoNoD" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runCoMoNoD")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_cudaimg.dylib" "liboceancv_cudaimg.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runCoMoNoD")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -382,12 +364,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/runDeLPHI")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runDeLPHI" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runDeLPHI")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_cudaimg.dylib" "liboceancv_cudaimg.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib" "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runDeLPHI")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -402,12 +380,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/runMediaFeatureExtraction")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runMediaFeatureExtraction" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runMediaFeatureExtraction")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_cudaimg.dylib" "liboceancv_cudaimg.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib" "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runMediaFeatureExtraction")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -419,15 +393,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/runOlimp")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runOlimp" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runOlimp")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runOlimp")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/usr/local/lib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runOlimp")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/runOlimp")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/trainDeLPHI")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/trainDeLPHI" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/trainDeLPHI")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_cudaimg.dylib" "liboceancv_cudaimg.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_ml.dylib" "liboceancv_ml.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/trainDeLPHI")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -442,11 +428,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/oceancv" TYPE EXECUTABLE FILES "/Users/tschoening/dev/repos/oceancv/build/videoTiledClustering")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/videoTiledClustering" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/videoTiledClustering")
-    execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/tschoening/dev/repos/oceancv/build/libMPEG7.dylib" "libMPEG7.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_cudaimg.dylib" "liboceancv_cudaimg.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_img.dylib" "liboceancv_img.dylib"
-      -change "/Users/tschoening/dev/repos/oceancv/build/liboceancv_util.dylib" "liboceancv_util.dylib"
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/tschoening/dev/repos/oceancv/build"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oceancv/videoTiledClustering")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"

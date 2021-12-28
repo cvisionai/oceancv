@@ -21,7 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tschoening/dev/repos/oceancv/ml/vec_algorithms.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.o"
   "/Users/tschoening/dev/repos/oceancv/ml/vec_pair.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tschoening/dev/repos/oceancv/examples/descriptors/descriptors.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

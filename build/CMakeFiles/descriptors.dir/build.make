@@ -79,15 +79,15 @@ include CMakeFiles/descriptors.dir/flags.make
 CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.o: CMakeFiles/descriptors.dir/flags.make
 CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.o: ../examples/descriptors/descriptors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/descriptors/descriptors.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/descriptors/descriptors.cpp
 
 CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/descriptors/descriptors.cpp > CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/descriptors/descriptors.cpp > CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.i
 
 CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/descriptors/descriptors.cpp -o CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/descriptors/descriptors.cpp -o CMakeFiles/descriptors.dir/examples/descriptors/descriptors.cpp.s
 
 # Object files for target descriptors
 descriptors_OBJECTS = \

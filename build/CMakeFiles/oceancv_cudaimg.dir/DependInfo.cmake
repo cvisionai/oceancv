@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tschoening/dev/repos/oceancv/cudaimg/misc_func.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.o"
   "/Users/tschoening/dev/repos/oceancv/cudaimg/zernike_filter.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

@@ -79,15 +79,15 @@ include CMakeFiles/statistical_descriptors.dir/flags.make
 CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.o: CMakeFiles/statistical_descriptors.dir/flags.make
 CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.o: ../examples/statistical_descriptors/statistical_descriptors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/statistical_descriptors/statistical_descriptors.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/statistical_descriptors/statistical_descriptors.cpp
 
 CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/statistical_descriptors/statistical_descriptors.cpp > CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/statistical_descriptors/statistical_descriptors.cpp > CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.i
 
 CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/statistical_descriptors/statistical_descriptors.cpp -o CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/statistical_descriptors/statistical_descriptors.cpp -o CMakeFiles/statistical_descriptors.dir/examples/statistical_descriptors/statistical_descriptors.cpp.s
 
 # Object files for target statistical_descriptors
 statistical_descriptors_OBJECTS = \

@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/vopio.c" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.o"
   "/Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/imgutil.c" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
@@ -52,7 +52,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Feature.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.o"
   "/Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Frame.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

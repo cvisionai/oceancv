@@ -79,15 +79,15 @@ include CMakeFiles/laserpoints.dir/flags.make
 CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.o: CMakeFiles/laserpoints.dir/flags.make
 CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.o: ../examples/laserpoints/laserpoints.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/laserpoints/laserpoints.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/laserpoints/laserpoints.cpp
 
 CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/laserpoints/laserpoints.cpp > CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/laserpoints/laserpoints.cpp > CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.i
 
 CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/laserpoints/laserpoints.cpp -o CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/laserpoints/laserpoints.cpp -o CMakeFiles/laserpoints.dir/examples/laserpoints/laserpoints.cpp.s
 
 # Object files for target laserpoints
 laserpoints_OBJECTS = \

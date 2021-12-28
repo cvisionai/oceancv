@@ -79,15 +79,15 @@ include CMakeFiles/runDeLPHI.dir/flags.make
 CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.o: CMakeFiles/runDeLPHI.dir/flags.make
 CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.o: ../bin/uwi/runDeLPHI.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.o -c /Users/tschoening/dev/repos/oceancv/bin/uwi/runDeLPHI.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.o -c /Users/tschoening/dev/repos/oceancv/bin/uwi/runDeLPHI.cpp
 
 CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/bin/uwi/runDeLPHI.cpp > CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/bin/uwi/runDeLPHI.cpp > CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.i
 
 CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/bin/uwi/runDeLPHI.cpp -o CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/bin/uwi/runDeLPHI.cpp -o CMakeFiles/runDeLPHI.dir/bin/uwi/runDeLPHI.cpp.s
 
 # Object files for target runDeLPHI
 runDeLPHI_OBJECTS = \

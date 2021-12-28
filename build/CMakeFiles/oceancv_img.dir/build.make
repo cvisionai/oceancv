@@ -79,67 +79,67 @@ include CMakeFiles/oceancv_img.dir/flags.make
 CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.o: CMakeFiles/oceancv_img.dir/flags.make
 CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.o: ../img/color_constancy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/color_constancy.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/color_constancy.cpp
 
 CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/color_constancy.cpp > CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/color_constancy.cpp > CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.i
 
 CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/color_constancy.cpp -o CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/color_constancy.cpp -o CMakeFiles/oceancv_img.dir/img/color_constancy.cpp.s
 
 CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.o: CMakeFiles/oceancv_img.dir/flags.make
 CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.o: ../img/fspice_normalization.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/fspice_normalization.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/fspice_normalization.cpp
 
 CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/fspice_normalization.cpp > CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/fspice_normalization.cpp > CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.i
 
 CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/fspice_normalization.cpp -o CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/fspice_normalization.cpp -o CMakeFiles/oceancv_img.dir/img/fspice_normalization.cpp.s
 
 CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.o: CMakeFiles/oceancv_img.dir/flags.make
 CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.o: ../img/image_entropy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/image_entropy.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/image_entropy.cpp
 
 CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/image_entropy.cpp > CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/image_entropy.cpp > CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.i
 
 CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/image_entropy.cpp -o CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/image_entropy.cpp -o CMakeFiles/oceancv_img.dir/img/image_entropy.cpp.s
 
 CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.o: CMakeFiles/oceancv_img.dir/flags.make
 CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.o: ../img/pixel_blob.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/pixel_blob.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/pixel_blob.cpp
 
 CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/pixel_blob.cpp > CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/pixel_blob.cpp > CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.i
 
 CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/pixel_blob.cpp -o CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/pixel_blob.cpp -o CMakeFiles/oceancv_img.dir/img/pixel_blob.cpp.s
 
 CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.o: CMakeFiles/oceancv_img.dir/flags.make
 CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.o: ../img/statistical_filters.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/statistical_filters.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.o -c /Users/tschoening/dev/repos/oceancv/img/statistical_filters.cpp
 
 CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/statistical_filters.cpp > CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/img/statistical_filters.cpp > CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.i
 
 CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/statistical_filters.cpp -o CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/img/statistical_filters.cpp -o CMakeFiles/oceancv_img.dir/img/statistical_filters.cpp.s
 
 # Object files for target oceancv_img
 oceancv_img_OBJECTS = \

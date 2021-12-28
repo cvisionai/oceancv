@@ -79,15 +79,15 @@ include CMakeFiles/zernike.dir/flags.make
 CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.o: CMakeFiles/zernike.dir/flags.make
 CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.o: ../examples/zernike/zernike.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/zernike/zernike.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/zernike/zernike.cpp
 
 CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/zernike/zernike.cpp > CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/zernike/zernike.cpp > CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.i
 
 CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/zernike/zernike.cpp -o CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/zernike/zernike.cpp -o CMakeFiles/zernike.dir/examples/zernike/zernike.cpp.s
 
 # Object files for target zernike
 zernike_OBJECTS = \

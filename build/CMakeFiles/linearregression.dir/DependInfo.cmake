@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tschoening/dev/repos/oceancv/examples/linearregression/linearregression.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

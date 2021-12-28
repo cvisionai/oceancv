@@ -79,15 +79,15 @@ include CMakeFiles/h2som.dir/flags.make
 CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.o: CMakeFiles/h2som.dir/flags.make
 CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.o: ../examples/h2som/h2som.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/h2som/h2som.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/h2som/h2som.cpp
 
 CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/h2som/h2som.cpp > CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/h2som/h2som.cpp > CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.i
 
 CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/h2som/h2som.cpp -o CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/h2som/h2som.cpp -o CMakeFiles/h2som.dir/examples/h2som/h2som.cpp.s
 
 # Object files for target h2som
 h2som_OBJECTS = \

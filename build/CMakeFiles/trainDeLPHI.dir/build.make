@@ -79,15 +79,15 @@ include CMakeFiles/trainDeLPHI.dir/flags.make
 CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.o: CMakeFiles/trainDeLPHI.dir/flags.make
 CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.o: ../bin/uwi/trainDeLPHI.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.o -c /Users/tschoening/dev/repos/oceancv/bin/uwi/trainDeLPHI.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.o -c /Users/tschoening/dev/repos/oceancv/bin/uwi/trainDeLPHI.cpp
 
 CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/bin/uwi/trainDeLPHI.cpp > CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/bin/uwi/trainDeLPHI.cpp > CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.i
 
 CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/bin/uwi/trainDeLPHI.cpp -o CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/bin/uwi/trainDeLPHI.cpp -o CMakeFiles/trainDeLPHI.dir/bin/uwi/trainDeLPHI.cpp.s
 
 # Object files for target trainDeLPHI
 trainDeLPHI_OBJECTS = \

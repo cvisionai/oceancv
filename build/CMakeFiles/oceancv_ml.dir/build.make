@@ -79,210 +79,210 @@ include CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.o: ../ml/aggregation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/aggregation.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/aggregation.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/aggregation.cpp > CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/aggregation.cpp > CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/aggregation.cpp -o CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/aggregation.cpp -o CMakeFiles/oceancv_ml.dir/ml/aggregation.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.o: ../ml/cluster_indices.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/cluster_indices.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/cluster_indices.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/cluster_indices.cpp > CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/cluster_indices.cpp > CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/cluster_indices.cpp -o CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/cluster_indices.cpp -o CMakeFiles/oceancv_ml.dir/ml/cluster_indices.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.o: ../ml/color_descriptors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/color_descriptors.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/color_descriptors.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/color_descriptors.cpp > CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/color_descriptors.cpp > CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/color_descriptors.cpp -o CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/color_descriptors.cpp -o CMakeFiles/oceancv_ml.dir/ml/color_descriptors.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.o: ../ml/feature_descriptor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/feature_descriptor.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/feature_descriptor.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/feature_descriptor.cpp > CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/feature_descriptor.cpp > CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/feature_descriptor.cpp -o CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/feature_descriptor.cpp -o CMakeFiles/oceancv_ml.dir/ml/feature_descriptor.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.o: ../ml/genetic_algorithm.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/genetic_algorithm.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/genetic_algorithm.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/genetic_algorithm.cpp > CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/genetic_algorithm.cpp > CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/genetic_algorithm.cpp -o CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/genetic_algorithm.cpp -o CMakeFiles/oceancv_ml.dir/ml/genetic_algorithm.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.o: ../ml/h2som.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/h2som.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/h2som.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/h2som.cpp > CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/h2som.cpp > CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/h2som.cpp -o CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/h2som.cpp -o CMakeFiles/oceancv_ml.dir/ml/h2som.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.o: ../ml/learn_rate.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/learn_rate.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/learn_rate.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/learn_rate.cpp > CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/learn_rate.cpp > CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/learn_rate.cpp -o CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/learn_rate.cpp -o CMakeFiles/oceancv_ml.dir/ml/learn_rate.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.o: ../ml/linear_regression.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/linear_regression.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/linear_regression.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/linear_regression.cpp > CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/linear_regression.cpp > CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/linear_regression.cpp -o CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/linear_regression.cpp -o CMakeFiles/oceancv_ml.dir/ml/linear_regression.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.o: ../ml/mat_algorithms.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mat_algorithms.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mat_algorithms.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mat_algorithms.cpp > CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mat_algorithms.cpp > CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mat_algorithms.cpp -o CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mat_algorithms.cpp -o CMakeFiles/oceancv_ml.dir/ml/mat_algorithms.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.o: ../ml/mat_pair.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mat_pair.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mat_pair.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mat_pair.cpp > CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mat_pair.cpp > CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mat_pair.cpp -o CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mat_pair.cpp -o CMakeFiles/oceancv_ml.dir/ml/mat_pair.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.o: ../ml/mat_pair_algorithms.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mat_pair_algorithms.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mat_pair_algorithms.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mat_pair_algorithms.cpp > CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mat_pair_algorithms.cpp > CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mat_pair_algorithms.cpp -o CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mat_pair_algorithms.cpp -o CMakeFiles/oceancv_ml.dir/ml/mat_pair_algorithms.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/metric.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/metric.cpp.o: ../ml/metric.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/metric.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/metric.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/metric.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/metric.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/metric.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/metric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/metric.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/metric.cpp > CMakeFiles/oceancv_ml.dir/ml/metric.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/metric.cpp > CMakeFiles/oceancv_ml.dir/ml/metric.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/metric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/metric.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/metric.cpp -o CMakeFiles/oceancv_ml.dir/ml/metric.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/metric.cpp -o CMakeFiles/oceancv_ml.dir/ml/metric.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.o: ../ml/mpeg7_descriptors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mpeg7_descriptors.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/mpeg7_descriptors.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mpeg7_descriptors.cpp > CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/mpeg7_descriptors.cpp > CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mpeg7_descriptors.cpp -o CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/mpeg7_descriptors.cpp -o CMakeFiles/oceancv_ml.dir/ml/mpeg7_descriptors.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.o: ../ml/neural_gas.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/neural_gas.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/neural_gas.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/neural_gas.cpp > CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/neural_gas.cpp > CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/neural_gas.cpp -o CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/neural_gas.cpp -o CMakeFiles/oceancv_ml.dir/ml/neural_gas.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.o: ../ml/vec_algorithms.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/vec_algorithms.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/vec_algorithms.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/vec_algorithms.cpp > CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/vec_algorithms.cpp > CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/vec_algorithms.cpp -o CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/vec_algorithms.cpp -o CMakeFiles/oceancv_ml.dir/ml/vec_algorithms.cpp.s
 
 CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.o: CMakeFiles/oceancv_ml.dir/flags.make
 CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.o: ../ml/vec_pair.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/vec_pair.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.o -c /Users/tschoening/dev/repos/oceancv/ml/vec_pair.cpp
 
 CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/vec_pair.cpp > CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/ml/vec_pair.cpp > CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.i
 
 CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/vec_pair.cpp -o CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/ml/vec_pair.cpp -o CMakeFiles/oceancv_ml.dir/ml/vec_pair.cpp.s
 
 # Object files for target oceancv_ml
 oceancv_ml_OBJECTS = \

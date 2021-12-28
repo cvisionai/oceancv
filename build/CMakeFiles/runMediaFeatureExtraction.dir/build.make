@@ -79,15 +79,15 @@ include CMakeFiles/runMediaFeatureExtraction.dir/flags.make
 CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.o: CMakeFiles/runMediaFeatureExtraction.dir/flags.make
 CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.o: ../bin/uwi/runMediaFeatureExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/bin/uwi/runMediaFeatureExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/bin/uwi/runMediaFeatureExtraction.cpp
 
 CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/bin/uwi/runMediaFeatureExtraction.cpp > CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/bin/uwi/runMediaFeatureExtraction.cpp > CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.i
 
 CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/bin/uwi/runMediaFeatureExtraction.cpp -o CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/bin/uwi/runMediaFeatureExtraction.cpp -o CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.s
 
 # Object files for target runMediaFeatureExtraction
 runMediaFeatureExtraction_OBJECTS = \

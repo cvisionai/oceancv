@@ -79,418 +79,418 @@ include CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.o: ../dep/MPEG7FexLib/AddressLib/address.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/address.c
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/address.c
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/address.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.i
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/address.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/address.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.s
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/address.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/address.c.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.o: ../dep/MPEG7FexLib/AddressLib/inter.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/inter.c
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/inter.c
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/inter.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.i
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/inter.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/inter.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.s
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/inter.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/inter.c.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.o: ../dep/MPEG7FexLib/AddressLib/intra.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/intra.c
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/intra.c
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/intra.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.i
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/intra.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/intra.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.s
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/intra.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/intra.c.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.o: ../dep/MPEG7FexLib/AddressLib/nhood.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/nhood.c
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/nhood.c
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/nhood.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.i
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/nhood.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/nhood.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.s
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/nhood.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/nhood.c.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.o: ../dep/MPEG7FexLib/AddressLib/vopio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/vopio.c
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/vopio.c
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/vopio.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.i
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/vopio.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/vopio.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.s
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/AddressLib/vopio.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/AddressLib/vopio.c.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.o: ../dep/MPEG7FexLib/Convert.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Convert.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Convert.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Convert.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Convert.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Convert.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Convert.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Convert.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.o: ../dep/MPEG7FexLib/Descriptors/ColorLayout.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorLayout.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.o: ../dep/MPEG7FexLib/Descriptors/ColorQuant.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorQuant.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.o: ../dep/MPEG7FexLib/Descriptors/ColorSpace.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorSpace.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.o: ../dep/MPEG7FexLib/Descriptors/ColorStructure.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ColorStructure.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.o: ../dep/MPEG7FexLib/Descriptors/ContourShape.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ContourShape.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ContourShape.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ContourShape.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ContourShape.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ContourShape.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ContourShape.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ContourShape.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.o: ../dep/MPEG7FexLib/Descriptors/DominantColor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/DominantColor.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/DominantColor.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/DominantColor.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/DominantColor.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/DominantColor.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/DominantColor.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/DominantColor.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.o: ../dep/MPEG7FexLib/Descriptors/EdgeHist.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/EdgeHist.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.o: ../dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/FaceRecognition.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.o: ../dep/MPEG7FexLib/Descriptors/HomoTexture.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/HomoTexture.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.o: ../dep/MPEG7FexLib/Descriptors/RegionShape.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/RegionShape.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/RegionShape.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/RegionShape.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/RegionShape.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/RegionShape.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/RegionShape.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/RegionShape.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.o: ../dep/MPEG7FexLib/Descriptors/ScalableColor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Descriptors/ScalableColor.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/DominantColorExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.o: ../dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.o: ../dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/homo_texture_extractor.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.o: ../dep/MPEG7FexLib/Extraction/imgutil.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/imgutil.c
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/imgutil.c
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/imgutil.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.i
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/imgutil.c > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/imgutil.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.s
+	gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Extraction/imgutil.c -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Extraction/imgutil.c.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.o: ../dep/MPEG7FexLib/Feature.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Feature.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Feature.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Feature.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Feature.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Feature.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Feature.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Feature.cpp.s
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.o: CMakeFiles/MPEG7.dir/flags.make
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.o: ../dep/MPEG7FexLib/Frame.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Frame.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.o -c /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Frame.cpp
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Frame.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Frame.cpp > CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.i
 
 CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Frame.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/dep/MPEG7FexLib/Frame.cpp -o CMakeFiles/MPEG7.dir/dep/MPEG7FexLib/Frame.cpp.s
 
 # Object files for target MPEG7
 MPEG7_OBJECTS = \

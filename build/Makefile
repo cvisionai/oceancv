@@ -87,6 +87,18 @@ install/fast: preinstall/fast
 	/usr/local/Cellar/cmake/3.19.1/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +109,18 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -118,30 +142,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -176,6 +176,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named oceancv_ml
+
+# Build rule for target.
+oceancv_ml: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oceancv_ml
+.PHONY : oceancv_ml
+
+# fast build rule for target.
+oceancv_ml/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oceancv_ml.dir/build.make CMakeFiles/oceancv_ml.dir/build
+.PHONY : oceancv_ml/fast
+
+#=============================================================================
+# Target rules for targets named runOlimp
+
+# Build rule for target.
+runOlimp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runOlimp
+.PHONY : runOlimp
+
+# fast build rule for target.
+runOlimp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runOlimp.dir/build.make CMakeFiles/runOlimp.dir/build
+.PHONY : runOlimp/fast
+
+#=============================================================================
 # Target rules for targets named trainDeLPHI
 
 # Build rule for target.
@@ -200,6 +226,32 @@ runMediaFeatureExtraction: cmake_check_build_system
 runMediaFeatureExtraction/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMediaFeatureExtraction.dir/build.make CMakeFiles/runMediaFeatureExtraction.dir/build
 .PHONY : runMediaFeatureExtraction/fast
+
+#=============================================================================
+# Target rules for targets named openCVBuildConfig
+
+# Build rule for target.
+openCVBuildConfig: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openCVBuildConfig
+.PHONY : openCVBuildConfig
+
+# fast build rule for target.
+openCVBuildConfig/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCVBuildConfig.dir/build.make CMakeFiles/openCVBuildConfig.dir/build
+.PHONY : openCVBuildConfig/fast
+
+#=============================================================================
+# Target rules for targets named oceancv_util
+
+# Build rule for target.
+oceancv_util: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oceancv_util
+.PHONY : oceancv_util
+
+# fast build rule for target.
+oceancv_util/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oceancv_util.dir/build.make CMakeFiles/oceancv_util.dir/build
+.PHONY : oceancv_util/fast
 
 #=============================================================================
 # Target rules for targets named asciDataCorrelation
@@ -306,6 +358,19 @@ oceancv_cudaimg/fast:
 .PHONY : oceancv_cudaimg/fast
 
 #=============================================================================
+# Target rules for targets named laserpoints
+
+# Build rule for target.
+laserpoints: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laserpoints
+.PHONY : laserpoints
+
+# fast build rule for target.
+laserpoints/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laserpoints.dir/build.make CMakeFiles/laserpoints.dir/build
+.PHONY : laserpoints/fast
+
+#=============================================================================
 # Target rules for targets named oceancv_img
 
 # Build rule for target.
@@ -332,32 +397,6 @@ runDeLPHI/fast:
 .PHONY : runDeLPHI/fast
 
 #=============================================================================
-# Target rules for targets named oceancv_util
-
-# Build rule for target.
-oceancv_util: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oceancv_util
-.PHONY : oceancv_util
-
-# fast build rule for target.
-oceancv_util/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oceancv_util.dir/build.make CMakeFiles/oceancv_util.dir/build
-.PHONY : oceancv_util/fast
-
-#=============================================================================
-# Target rules for targets named oceancv_ml
-
-# Build rule for target.
-oceancv_ml: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oceancv_ml
-.PHONY : oceancv_ml
-
-# fast build rule for target.
-oceancv_ml/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oceancv_ml.dir/build.make CMakeFiles/oceancv_ml.dir/build
-.PHONY : oceancv_ml/fast
-
-#=============================================================================
 # Target rules for targets named videoTiledClustering
 
 # Build rule for target.
@@ -369,19 +408,6 @@ videoTiledClustering: cmake_check_build_system
 videoTiledClustering/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoTiledClustering.dir/build.make CMakeFiles/videoTiledClustering.dir/build
 .PHONY : videoTiledClustering/fast
-
-#=============================================================================
-# Target rules for targets named laserpoints
-
-# Build rule for target.
-laserpoints: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laserpoints
-.PHONY : laserpoints
-
-# fast build rule for target.
-laserpoints/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laserpoints.dir/build.make CMakeFiles/laserpoints.dir/build
-.PHONY : laserpoints/fast
 
 #=============================================================================
 # Target rules for targets named MPEG7
@@ -422,6 +448,33 @@ bin/util/asciDataCorrelation.s: bin/util/asciDataCorrelation.cpp.s
 bin/util/asciDataCorrelation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/asciDataCorrelation.dir/build.make CMakeFiles/asciDataCorrelation.dir/bin/util/asciDataCorrelation.cpp.s
 .PHONY : bin/util/asciDataCorrelation.cpp.s
+
+bin/util/openCVBuildConfig.o: bin/util/openCVBuildConfig.cpp.o
+
+.PHONY : bin/util/openCVBuildConfig.o
+
+# target to build an object file
+bin/util/openCVBuildConfig.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCVBuildConfig.dir/build.make CMakeFiles/openCVBuildConfig.dir/bin/util/openCVBuildConfig.cpp.o
+.PHONY : bin/util/openCVBuildConfig.cpp.o
+
+bin/util/openCVBuildConfig.i: bin/util/openCVBuildConfig.cpp.i
+
+.PHONY : bin/util/openCVBuildConfig.i
+
+# target to preprocess a source file
+bin/util/openCVBuildConfig.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCVBuildConfig.dir/build.make CMakeFiles/openCVBuildConfig.dir/bin/util/openCVBuildConfig.cpp.i
+.PHONY : bin/util/openCVBuildConfig.cpp.i
+
+bin/util/openCVBuildConfig.s: bin/util/openCVBuildConfig.cpp.s
+
+.PHONY : bin/util/openCVBuildConfig.s
+
+# target to generate assembly for a file
+bin/util/openCVBuildConfig.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCVBuildConfig.dir/build.make CMakeFiles/openCVBuildConfig.dir/bin/util/openCVBuildConfig.cpp.s
+.PHONY : bin/util/openCVBuildConfig.cpp.s
 
 bin/uwi/runCoMoNoD.o: bin/uwi/runCoMoNoD.cpp.o
 
@@ -503,6 +556,33 @@ bin/uwi/runMediaFeatureExtraction.s: bin/uwi/runMediaFeatureExtraction.cpp.s
 bin/uwi/runMediaFeatureExtraction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMediaFeatureExtraction.dir/build.make CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.s
 .PHONY : bin/uwi/runMediaFeatureExtraction.cpp.s
+
+bin/uwi/runOlimp.o: bin/uwi/runOlimp.cpp.o
+
+.PHONY : bin/uwi/runOlimp.o
+
+# target to build an object file
+bin/uwi/runOlimp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runOlimp.dir/build.make CMakeFiles/runOlimp.dir/bin/uwi/runOlimp.cpp.o
+.PHONY : bin/uwi/runOlimp.cpp.o
+
+bin/uwi/runOlimp.i: bin/uwi/runOlimp.cpp.i
+
+.PHONY : bin/uwi/runOlimp.i
+
+# target to preprocess a source file
+bin/uwi/runOlimp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runOlimp.dir/build.make CMakeFiles/runOlimp.dir/bin/uwi/runOlimp.cpp.i
+.PHONY : bin/uwi/runOlimp.cpp.i
+
+bin/uwi/runOlimp.s: bin/uwi/runOlimp.cpp.s
+
+.PHONY : bin/uwi/runOlimp.s
+
+# target to generate assembly for a file
+bin/uwi/runOlimp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runOlimp.dir/build.make CMakeFiles/runOlimp.dir/bin/uwi/runOlimp.cpp.s
+.PHONY : bin/uwi/runOlimp.cpp.s
 
 bin/uwi/trainDeLPHI.o: bin/uwi/trainDeLPHI.cpp.o
 
@@ -2632,9 +2712,11 @@ help:
 	@echo "... oceancv_img"
 	@echo "... oceancv_ml"
 	@echo "... oceancv_util"
+	@echo "... openCVBuildConfig"
 	@echo "... runCoMoNoD"
 	@echo "... runDeLPHI"
 	@echo "... runMediaFeatureExtraction"
+	@echo "... runOlimp"
 	@echo "... statistical_descriptors"
 	@echo "... trainDeLPHI"
 	@echo "... videoTiledClustering"
@@ -2642,6 +2724,9 @@ help:
 	@echo "... bin/util/asciDataCorrelation.o"
 	@echo "... bin/util/asciDataCorrelation.i"
 	@echo "... bin/util/asciDataCorrelation.s"
+	@echo "... bin/util/openCVBuildConfig.o"
+	@echo "... bin/util/openCVBuildConfig.i"
+	@echo "... bin/util/openCVBuildConfig.s"
 	@echo "... bin/uwi/runCoMoNoD.o"
 	@echo "... bin/uwi/runCoMoNoD.i"
 	@echo "... bin/uwi/runCoMoNoD.s"
@@ -2651,6 +2736,9 @@ help:
 	@echo "... bin/uwi/runMediaFeatureExtraction.o"
 	@echo "... bin/uwi/runMediaFeatureExtraction.i"
 	@echo "... bin/uwi/runMediaFeatureExtraction.s"
+	@echo "... bin/uwi/runOlimp.o"
+	@echo "... bin/uwi/runOlimp.i"
+	@echo "... bin/uwi/runOlimp.s"
 	@echo "... bin/uwi/trainDeLPHI.o"
 	@echo "... bin/uwi/trainDeLPHI.i"
 	@echo "... bin/uwi/trainDeLPHI.s"

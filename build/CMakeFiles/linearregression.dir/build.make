@@ -79,15 +79,15 @@ include CMakeFiles/linearregression.dir/flags.make
 CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.o: CMakeFiles/linearregression.dir/flags.make
 CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.o: ../examples/linearregression/linearregression.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/linearregression/linearregression.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.o -c /Users/tschoening/dev/repos/oceancv/examples/linearregression/linearregression.cpp
 
 CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/linearregression/linearregression.cpp > CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/examples/linearregression/linearregression.cpp > CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.i
 
 CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/linearregression/linearregression.cpp -o CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/examples/linearregression/linearregression.cpp -o CMakeFiles/linearregression.dir/examples/linearregression/linearregression.cpp.s
 
 # Object files for target linearregression
 linearregression_OBJECTS = \

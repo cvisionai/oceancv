@@ -79,80 +79,80 @@ include CMakeFiles/oceancv_cudaimg.dir/flags.make
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.o: CMakeFiles/oceancv_cudaimg.dir/flags.make
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.o: ../cudaimg/fspice_normalization.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/fspice_normalization.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/fspice_normalization.cpp
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/fspice_normalization.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/fspice_normalization.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.i
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/fspice_normalization.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/fspice_normalization.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/fspice_normalization.cpp.s
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.o: CMakeFiles/oceancv_cudaimg.dir/flags.make
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.o: ../cudaimg/gabor_filter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/gabor_filter.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/gabor_filter.cpp
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/gabor_filter.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/gabor_filter.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.i
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/gabor_filter.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/gabor_filter.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gabor_filter.cpp.s
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.o: CMakeFiles/oceancv_cudaimg.dir/flags.make
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.o: ../cudaimg/gauss_smoothing.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/gauss_smoothing.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/gauss_smoothing.cpp
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/gauss_smoothing.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/gauss_smoothing.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.i
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/gauss_smoothing.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/gauss_smoothing.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/gauss_smoothing.cpp.s
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.o: CMakeFiles/oceancv_cudaimg.dir/flags.make
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.o: ../cudaimg/image_entropy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/image_entropy.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/image_entropy.cpp
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/image_entropy.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/image_entropy.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.i
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/image_entropy.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/image_entropy.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/image_entropy.cpp.s
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.o: CMakeFiles/oceancv_cudaimg.dir/flags.make
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.o: ../cudaimg/misc_func.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/misc_func.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/misc_func.cpp
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/misc_func.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/misc_func.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.i
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/misc_func.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/misc_func.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/misc_func.cpp.s
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.o: CMakeFiles/oceancv_cudaimg.dir/flags.make
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.o: ../cudaimg/zernike_filter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tschoening/dev/repos/oceancv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/zernike_filter.cpp
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.o -c /Users/tschoening/dev/repos/oceancv/cudaimg/zernike_filter.cpp
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/zernike_filter.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.i
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tschoening/dev/repos/oceancv/cudaimg/zernike_filter.cpp > CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.i
 
 CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/zernike_filter.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.s
+	g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tschoening/dev/repos/oceancv/cudaimg/zernike_filter.cpp -o CMakeFiles/oceancv_cudaimg.dir/cudaimg/zernike_filter.cpp.s
 
 # Object files for target oceancv_cudaimg
 oceancv_cudaimg_OBJECTS = \

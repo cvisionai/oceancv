@@ -16,7 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tschoening/dev/repos/oceancv/util/progress_bar.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/oceancv_util.dir/util/progress_bar.cpp.o"
   "/Users/tschoening/dev/repos/oceancv/util/string_func.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/oceancv_util.dir/util/string_func.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

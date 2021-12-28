@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tschoening/dev/repos/oceancv/bin/uwi/runMediaFeatureExtraction.cpp" "/Users/tschoening/dev/repos/oceancv/build/CMakeFiles/runMediaFeatureExtraction.dir/bin/uwi/runMediaFeatureExtraction.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
