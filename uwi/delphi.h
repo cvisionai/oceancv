@@ -3,6 +3,8 @@
 #include <numeric>
 
 #include "opencv2/opencv.hpp"
+#include "opencv2/cudaarithm.hpp"
+#include "opencv2/cudafilters.hpp"
 
 #include "oceancv/util/file_system.h"
 #include "oceancv/util/progress_bar.h"

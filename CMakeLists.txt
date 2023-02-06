@@ -32,6 +32,7 @@ if(WITH_MPEG7)
 
 	include_directories(dep)
 	add_library(MPEG7 SHARED ${SOURCES})
+	target_include_directories(MPEG7 PUBLIC ${OpenCV_INCLUDE_DIRS})
 
 	file(GLOB HEADERS "dep/MPEG7FexLib/*/*.h" dep/MPEG7FexLib/*.h)
 	list(FILTER HEADERS EXCLUDE REGEX "\\/\\.")

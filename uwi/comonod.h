@@ -835,14 +835,15 @@ std::vector<double> noduleCoverageBins(const std::vector<ocv::CoMoNoDule>& nodul
 enum analysis_type {TRASK, INMAN, FRIEDMAN_SANDERS};
 std::vector<double> particleSizeAnalysis(const std::vector<double>& sizes, analysis_type method = TRASK) {
 	switch(method) {
-		case TRASK:
-			return {sizes[1],0.5*(sizes[2]-sizes[0]),sizes[0] + sizes[2] - 2 * sizes[1],-1};
-		break;
 		case INMAN:
 			return {0.5*(sizes[1]+sizes[3]),0.5*(sizes[3]-sizes[1]),1.0*(sizes[3]+sizes[1]-2*sizes[2])/(sizes[3]-sizes[1]),1.0*((sizes[4]-sizes[1])-(sizes[3]-sizes[2]))/(sizes[3]-sizes[1])};
 		break;
 		case FRIEDMAN_SANDERS:
 			return {0.3333*(sizes[1]+sizes[2]+sizes[3]),0.5*(sizes[4]-sizes[0]),sizes[4]+sizes[0]-2*sizes[2],-1};
+		break;
+		case TRASK:
+		default:
+			return {sizes[1],0.5*(sizes[2]-sizes[0]),sizes[0] + sizes[2] - 2 * sizes[1],-1};
 		break;
 	}
 }

@@ -1,7 +1,7 @@
 #ifndef __CONVERT__H__
 #define __CONVERT__H__
 
-#include <opencv2/core/core.hpp>
+#include "opencv2/core.hpp"
 
 #include "MPEG7FexLib/AddressLib/vopio.h"
 

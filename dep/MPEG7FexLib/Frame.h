@@ -12,7 +12,7 @@ update: 02.02.2011 (upgrade to OpenCV 2.2, Mat)
 #ifndef __FRAME__H__
 #define __FRAME__H__
 
-#include <opencv2/core/core.hpp>
+#include "opencv2/core.hpp"
 
 #include "MPEG7FexLib/AddressLib/vopio.h"
 
