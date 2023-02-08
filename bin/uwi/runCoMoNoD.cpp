@@ -95,6 +95,13 @@ int main(int argc, char** argv) {
 	// Load input file name list
 	ocv::forceFileExists(input_list);
 	vector<vector<string>> input_image_files = ocv::readASCIFile(input_list);
+  cout << "LISTING FILES" << endl;
+	for(vector<string> input_file : input_image_files) {
+      for(string name : input_file) {
+          cout << name << endl;
+      }
+	}
+  cout << "FILES LISTED" << endl;
 
 	// Load meta data
 	ocv::forceFileExists(meta_file);
@@ -119,7 +126,7 @@ int main(int argc, char** argv) {
 
 	// Create result folder
 	if(!ocv::fileExists(dst_folder))
-		mkdir(dst_folder.c_str(),0775);
+		mkdir(dst_folder.c_str(), 0775);
 
 	// Store Provenance
 	ocv::cli_arg_provenance prov(args,dst_folder);
@@ -151,31 +158,41 @@ int main(int argc, char** argv) {
 	if(target_area < 0) {
 
 		vector<float> tmp_areas;
+    cout << "starting loop" << endl;
 		for(vector<string> input_file : input_image_files) {
+			cout << "in loop" << endl;
 
 			file_name = input_file[0].substr(input_file[0].find_last_of('/')+1);
+			cout << "FILE_NAME: " << file_name << endl;
 
 			// Check if this image has environment parameters (lat,lon,...) and those are valid (e.g. altitude > 0)
 			if(checkConditionWithMessage(args.i("continue") == 1 && (ocv::fileExists(dst_folder + file_name + "_single_nodules.txt") || ocv::fileExists(dst_folder + file_name + "_nodules.txt")),""))
+			  cout << "file" << endl;
 				continue;
 			if(checkConditionWithMessage(areas.find(file_name) == areas.end(),""))
+			  cout << "areas0" << endl;
 				continue;
 			//if(checkConditionWithMessage(latitudes.find(file_name) == latitudes.end(),""))
 			//	continue;
 			//if(checkConditionWithMessage(longitudes.find(file_name) == longitudes.end(),""))
 			//	continue;
 			if(checkConditionWithMessage(quality.find(file_name) == quality.end(),""))
+			  cout << "quality0" << endl;
 				continue;
 			if(checkConditionWithMessage(quality[file_name] == 0,""))
+			  cout << "quality1" << endl;
 				continue;
 			if(checkConditionWithMessage(areas[file_name] == 0,""))
+			  cout << "areas1" << endl;
 				continue;
 			//if(checkConditionWithMessage(areas[file_name] > 10,""))
 			//	continue;
 
+			cout << "PUSHING BACK: " << areas[file_name] << endl;
 			tmp_areas.push_back(areas[file_name]);//area_factor * altitudes[file_name] * altitudes[file_name]);
 
 		}
+    cout << "past loop" << endl;
 
 		if(tmp_areas.size() == 0) {
 			cout << "No files found while computing the median image area." << endl;
