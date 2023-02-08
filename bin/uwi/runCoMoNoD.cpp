@@ -33,6 +33,7 @@ int main(int argc, char** argv) {
 
         {"i","Input file with list of full image paths"},
         {"o","Output folder"},
+        {"d","Debug folder, default value disables debug images",""},
 
         {"ats","Adaptive threshold slope (not the thresh but the max slope change of the histogram left of the peak","0.1"},
         //{"min_npr","Minimum nodule pixel radius","5"},
@@ -61,7 +62,7 @@ int main(int argc, char** argv) {
     });
 
     // Convert args to variables
-    string input_list = args.s("i"), dst_folder = args.s("o"), meta_file = args.s("meta_file");
+    string input_list = args.s("i"), dst_folder = args.s("o"), meta_file = args.s("meta_file"), debug_folder = args.s("d");
 
     cv::Point top_left = cv::Point(args.i("sx"),args.i("sy"));
     cv::Point bottom_right = cv::Point(args.i("ex"),args.i("ey"));
@@ -302,7 +303,7 @@ int main(int argc, char** argv) {
         results << threshold_used << "," << cm_per_pix << "," << 0.01*round(100*(bottom_right.x-top_left.x) * (bottom_right.y-top_left.y) * cm_per_pix / 10000) << "," << flush;
 
         // Second CoMoNoD step
-        ocv::noduleDelineation(file_name,binary, blob_index, contours, min_nodule_pixel_radius, scale_fac, erode, dilate, dst_folder, {});//, search_neighbors);
+        ocv::noduleDelineation(file_name,binary, blob_index, contours, min_nodule_pixel_radius, scale_fac, erode, dilate, debug_folder);//, search_neighbors);
 
         std::cout << "done delineation" << std::endl;
 
