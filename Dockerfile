@@ -1,6 +1,6 @@
 # Based on the dockerfile found here:
 # https://github.com/JulianAssmann/opencv-cuda-docker/blob/9beb361e8ad563e145fefce4e8dac9e520c0389d/ubuntu-20.04/opencv-4.5.3/cuda-11.4.1/Dockerfile
-FROM nvidia/cuda:11.8.0-devel-ubuntu20.04
+FROM nvidia/cuda:11.7.1-devel-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
