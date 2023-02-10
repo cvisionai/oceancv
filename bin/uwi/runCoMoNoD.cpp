@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
 
         {"i","Input file with list of full image paths"},
         {"o","Output folder"},
-        {"d","Debug folder, default value disables debug images",""},
+        {"d","Debug folder, default value disables debug images","OFF"},
 
         {"ats","Adaptive threshold slope (not the thresh but the max slope change of the histogram left of the peak","0.1"},
         //{"min_npr","Minimum nodule pixel radius","5"},
@@ -150,45 +150,44 @@ int main(int argc, char** argv) {
 
     // Compute median image area if it has not been set on the command line
     if(target_area < 0) {
-
         vector<float> tmp_areas;
         for(vector<string> input_file : input_image_files) {
+            if (input_file.empty()) {
+                continue;
+            }
 
-            file_name = input_file[0].substr(input_file[0].find_last_of('/')+1);
+            if(args.i("remote_images") == 1) {
+                file_name = ocv::fileNameFromUrl(input_file[0]);
+            } else {
+                file_name = input_file[0].substr(input_file[0].find_last_of('/')+1);
+            }
 
             // Check if this image has environment parameters (lat,lon,...) and those are valid (e.g. altitude > 0)
             if(checkConditionWithMessage(args.i("continue") == 1 && (ocv::fileExists(dst_folder + file_name + "_single_nodules.txt") || ocv::fileExists(dst_folder + file_name + "_nodules.txt")),"")) {
-                cout << "file" << endl;
                 continue;
             }
-            if(checkConditionWithMessage(areas.find(file_name) == areas.end(),"")) {
-                cout << "areas0" << endl;
+            if(checkConditionWithMessage(areas.find(file_name) == areas.end(),"no area")) {
                 continue;
             }
             //if(checkConditionWithMessage(latitudes.find(file_name) == latitudes.end(),""))
             //	continue;
             //if(checkConditionWithMessage(longitudes.find(file_name) == longitudes.end(),""))
             //	continue;
-            if(checkConditionWithMessage(quality.find(file_name) == quality.end(),"")) {
-                cout << "quality0" << endl;
+            if(checkConditionWithMessage(quality.find(file_name) == quality.end(),"no quality")) {
                 continue;
             }
-            if(checkConditionWithMessage(quality[file_name] == 0,"")) {
-                cout << "quality1" << endl;
+            if(checkConditionWithMessage(quality[file_name] == 0,"quality zero")) {
                 continue;
             }
-            if(checkConditionWithMessage(areas[file_name] == 0,"")) {
-                cout << "areas1" << endl;
+            if(checkConditionWithMessage(areas[file_name] == 0,"area zero")) {
                 continue;
             }
             //if(checkConditionWithMessage(areas[file_name] > 10,""))
             //	continue;
 
-            cout << "PUSHING BACK: " << areas[file_name] << endl;
             tmp_areas.push_back(areas[file_name]);//area_factor * altitudes[file_name] * altitudes[file_name]);
 
         }
-        cout << "past loop, check for 'in loop' printouts before this" << endl;
 
         if(tmp_areas.size() == 0) {
             cout << "No files found while computing the median image area." << endl;
@@ -204,19 +203,16 @@ int main(int argc, char** argv) {
     }
 
     // A cuda filter pointer to erode / dilate with a 3x3 kernel
-    std::cout << "creating morphology filters" << std::endl;
     cv::Ptr<cv::cuda::Filter> erode = cv::cuda::createMorphologyFilter(cv::MORPH_ERODE,CV_8UC1,cv::getStructuringElement(cv::MORPH_RECT,cv::Size(3,3)));
     cv::Ptr<cv::cuda::Filter> dilate = cv::cuda::createMorphologyFilter(cv::MORPH_DILATE,CV_8UC1,cv::getStructuringElement(cv::MORPH_RECT,cv::Size(3,3)));
-    std::cout << "morphology filters created" << std::endl;
     //std::vector<cv::Point> search_neighbors = ocv::createSearchNeighborList(min_nodule_pixel_radius*2);
 
     for(vector<string> input_file : input_image_files) {
-        std::cout << "iterating over input file..." << std::endl;
-        for (string sub : input_file) {
-            std::cout << sub << endl;
+        if(args.i("remote_images") == 1) {
+            file_name = ocv::fileNameFromUrl(input_file[0]);
+        } else {
+            file_name = input_file[0].substr(input_file[0].find_last_of('/')+1);
         }
-
-        file_name = input_file[0].substr(input_file[0].find_last_of('/')+1);
         cout << count++ << " " << endl;
 
         // Check if this image has environment parameters (lat,lon,...) and those are valid (e.g. altitude > 0)
@@ -305,11 +301,7 @@ int main(int argc, char** argv) {
         // Second CoMoNoD step
         ocv::noduleDelineation(file_name,binary, blob_index, contours, min_nodule_pixel_radius, scale_fac, erode, dilate, debug_folder);//, search_neighbors);
 
-        std::cout << "done delineation" << std::endl;
-
         ocv::getSingleNodulesAndFilter(binary, nodules, min_nodule_pixel_radius, cm_per_pix, min_nodule_size, max_nodule_size, max_ellipse_distortion, max_blob_distortion);
-
-        std::cout << "done getsinglenodules" << std::endl;
 
         if(args.i("store_nth_result") > 0 && count % args.i("store_nth_result") == 0) {
             for(auto nod : nodules)

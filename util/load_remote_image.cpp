@@ -10,6 +10,28 @@ size_t _curl_write_data(char *ptr, size_t size, size_t memb, void *data) {
 	return count;
 }
 
+std::string fileNameFromUrl(std::string url) {
+    std::string retval = url;
+    int decodelen;
+    int pos = retval.find_last_of('/');
+    if (pos >= 0) {
+        retval = retval.substr(pos + 1);
+        CURL *curl = curl_easy_init();
+        if (curl) {
+            char *buf = curl_easy_unescape(curl, retval.c_str(), retval.length(), &decodelen);
+            if (buf) {
+                retval = buf;
+                pos = retval.find_first_of('?');
+                if (pos >= 0) {
+                    retval = retval.substr(0, pos);
+                }
+                curl_free(buf);
+            }
+        }
+    }
+    return retval;
+}
+
 bool loadFromUrl(std::string url,cv::Mat& img) {
 	
 	// The return value

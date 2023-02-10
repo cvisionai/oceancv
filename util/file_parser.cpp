@@ -100,7 +100,6 @@ namespace ocv {
 
 	std::vector<std::vector<std::string>> readASCIFile(std::string path) {
 		std::pair<std::string,std::string> seps = ocv::guessASCIFileSeparators(path);
-    std::cout << "SEPARATORS: " << seps.first << ", " << seps.second << std::endl;
 		return readASCIFile(path, seps.first, seps.second);
 	}
 
@@ -120,7 +119,6 @@ namespace ocv {
 		std::string tmp_line;
 
 		if(file.is_open()) {
-			std::cout << "in if stmnt" << std::endl;
 			while(getline(file, tmp_line, tmp_row_split)) {
 
 				// Check if all separators have been matched
@@ -135,15 +133,12 @@ namespace ocv {
 				line += tmp_line + tmp_row_split;
 
 				if(match) {
-					std::cout << "Found match: " << line << std::endl;
 					ret.push_back(explode(col_split,ocv::replace(row_split,"",line)));
 					line = "";
 				}
 
 			}
-		} else {
-			std::cout << "skipped if stmnt" << std::endl;
-    }
+		}
 		file.close();
 
 		return ret;

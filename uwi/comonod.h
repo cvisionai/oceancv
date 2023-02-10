@@ -225,7 +225,7 @@ void cutBlobBottlenecks(std::string filename, cv::Mat& peak_img, const std::vect
     float min_dist, tmp_dist;
     cv::Point pp1,pp2;
     std::cout << peak_img.size() << " " << peak_img.total() << std::endl;
-    if (debug_dir.empty() == false) {
+    if (debug_dir != "OFF") {
         cv::imwrite(debug_dir + filename + "_peak_img_input_in_bottlenecks.png",peak_img);
     }
     // Get peak markers
@@ -241,7 +241,7 @@ void cutBlobBottlenecks(std::string filename, cv::Mat& peak_img, const std::vect
         blob_peaks[blob_index.at<uint32_t>(peaks[n][0].y,peaks[n][0].x)].push_back(peaks[n][0]);
         cv::circle(tmp,peaks[n][0],5,127);
     }
-    if (debug_dir.empty() == false) {
+    if (debug_dir != "OFF") {
         cv::imwrite(debug_dir + filename + "_peak_img_bottlenecks.png",tmp);
     }
 
@@ -383,7 +383,7 @@ void cutBlobBottlenecks(std::string filename, cv::Mat& peak_img, const std::vect
         }
 
     }
-    if (debug_dir.empty() == false) {
+    if (debug_dir != "OFF") {
         cv::imwrite(debug_dir + filename + "_peak_img_bottlenecks_2.png",tmp);
     }
 
@@ -559,14 +559,14 @@ void noduleDelineation(std::string filename,cv::Mat& binary, cv::Mat& blob_index
     }*/
 
     std::cout << "done peak finding" << std::endl;
-    if (debug_dir.empty() == false) {
+    if (debug_dir != "OFF") {
         cv::imwrite(debug_dir + filename + "_peaks.png",tmp_13);
         cv::imwrite(debug_dir + filename + "_peak_img_input.png",peak_img);
     }
     // Cut connected blobs along bottlenecks0
     ocv::cutBlobBottlenecks(filename,peak_img,contours,blob_index,binary);
 
-    if (debug_dir.empty() == false) {
+    if (debug_dir != "OFF") {
         cv::imwrite(debug_dir + filename + "_bin_cut.png",binary);
     }
     std::cout << "done cutting bottlenecks" << std::endl;

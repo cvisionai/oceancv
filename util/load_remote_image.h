@@ -16,5 +16,11 @@ namespace ocv {
  * @return true on success, false on fail
  **/
 bool loadFromUrl(std::string url,cv::Mat& img);
-	
+
+/**
+ * Gets the filename of the image from a url path.
+ * @param url a url to extract the filename from
+ * @return std::string the filename on success
+ **/
+std::string fileNameFromUrl(std::string url);
 }
